@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac OS X Setup</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./images/Globe.png">
+    <style>
+        @font-face {
+        font-family: 'SanFrancisco'; 
+        src: url('font/SanFranciscoText-Regular.otf') format('opentype'); 
+        font-weight: normal; 
+        font-style: normal; 
+        }
+
+        body {
+        font-family: 'SanFrancisco', sans-serif; 
+        }
+
+    </style>
+</head>
+<body class="bg-[url(/images/Background-Ventura-Blur.png)] bg-cover bg-no-repeat">
+    <main>
+        <section class="px-5 h-screen flex justify-center items-center relative">
+            <div class="bg-gray-200 py-5 w-full max-w-[700px] h-full max-h-[600px] rounded-xl shadow-lg relative">
+              <div class="flex flex-col items-center justify-center text-center">
+                <img src="./images/Globe.png" class="mb-6 w-20 mt-20" alt="">
+                <h1 class="font-bold text-xl">Select Your Country or Region</h1>
+                <div class="w-60 bg-white h-40 overflow-y-scroll overflow-hidden border-4 mt-10 border-blue-300 text-left p-1">
+                  <ul class="cursor-pointer">
+                    <li class="p- hover:bg-gray-100 active:bg-blue-700 active:text-white">United States</li>
+                    <li class="p- hover:bg-gray-100 active:bg-blue-700 active:text-white">Canada</li>
+                    <li class="p- hover:bg-gray-100 active:bg-blue-700 active:text-white">Mexico</li>
+                    <li class="p- hover:bg-gray-100 active:bg-blue-700 active:text-white">United Kingdom</li>
+                    <li class="p- hover:bg-gray-100 active:bg-blue-700 active:text-white">Germany</li>
+                    <li class="p- hover:bg-gray-100 active:bg-blue-700 active:text-white">France</li>
+                    <li class="p- hover:bg-gray-100 active:bg-blue-700 active:text-white">Italy</li>
+                    <li class="p- hover:bg-gray-100 active:bg-blue-700 active:text-white">Spain</li>
+                    <li class="p- hover:bg-gray-100 active:bg-blue-700 active:text-white">Australia</li>
+                    <li class="p- hover:bg-gray-100 active:bg-blue-700 active:text-white">Japan</li>
+                  </ul>
+                </div>
+              </div>
+              <hr class="border-t-1 border-gray-400 mt-20">
+              <div class="absolute bottom-4 right-4 space-x-4">
+                <a href="#" class="py-2 px-5 bg-gradient-to-b from-gray-100 border-2 border-gray-400 to-gray-200 rounded-lg text-black hover:from-gray-100 hover:to-gray-300 shadow-md transition-all duration-200">Back</a>
+                <a href="#" class="py-2 px-5 bg-gradient-to-b from-gray-100 border-2 border-gray-400 to-gray-200 rounded-lg text-black hover:from-gray-100 hover:to-gray-300 shadow-md transition-all duration-200">Continue</a>
+              </div>
+            </div>
+            <div class="absolute bottom-10 text-sm text-center space-y-2">
+              <h1 class="text-white">Press the Escape key to hear how to set up your SerankoMac with VoiceOver.</h1>
+              <h1 class="text-white">Triple-click Touch ID to view accessibility options.</h1>
+            </div>
+          </section>
+          
+          
+    </main>
+</body>
+</html>
